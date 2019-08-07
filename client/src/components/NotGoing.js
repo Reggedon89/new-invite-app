@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 export default props => {
-  const notGoing = useSelector(appState => appState.going);
+  const notGoing = useSelector(appState => appState.notgoing);
 
   return (
     <div>

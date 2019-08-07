@@ -6,11 +6,11 @@ const users = {
 };
 
 router.get("/going", (req, res, next) => {
-  res.json(going);
+  res.json(users.going);
 });
 
 router.get("/notgoing", (req, res, next) => {
-  res.json(notgoing);
+  res.json(users.notgoing);
 });
 
 router.post("/going", (req, res, next) => {
