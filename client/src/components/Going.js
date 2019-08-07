@@ -4,7 +4,7 @@ export default props => {
   const going = useSelector(appState => appState.going);
 
   return (
-    <div>
+    <div className="going-wrapper2">
       {going.map((user, i) => (
         <div key={"user" + i} className="currentUser">
           <img src={user.image} />

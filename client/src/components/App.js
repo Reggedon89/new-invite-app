@@ -11,7 +11,7 @@ export default props => {
   return (
     <Provider store={store}>
       <Router>
-        <div>
+        <div className="container">
           <nav>
             <ul className="nav">
               <li>
